@@ -1,40 +1,47 @@
+
+
+
 # Rock-Paper-Scissors Game
 
-This project is a simple implementation of the classic game Rock-Paper-Scissors. It's built using HTML and JavaScript and can be played in any modern web browser.
+This enhanced version of the classic Rock-Paper-Scissors game is built using HTML, CSS, and JavaScript. It features an interactive interface with score tracking, animations, and separate victory pages, offering a compelling experience in any modern web browser.
+
+<img width="960" alt="image" src="https://github.com/utdjeff/Rock-Paper-Scissors/assets/132472962/7ceccffe-8e9c-4e53-8c16-971e6d6aa160">
+
 
 ## How to Play
 
-- The game consists of three buttons: Rock, Paper, and Scissors.
-- Click on one of these buttons to make your choice.
+- The interface displays clickable images for Rock, Paper, and Scissors.
+- Click an image to make your choice.
 - The computer will randomly select its choice.
-- The game will then determine the winner based on the rules of Rock-Paper-Scissors.
+- The game determines the winner of each round based on traditional rules.
+- Scores are updated after each round.
+- The game consists of five rounds (draws not counted).
+- After five rounds, the game displays a final result page showing who won.
+- A "Play Again" button lets you restart the game.
 
 ## Rules
 
-- Rock beats Scissors.
-- Scissors beat Paper.
-- Paper beats Rock.
-- If both the player and computer choose the same, it's a draw.
+- Rock crushes Scissors.
+- Scissors cut Paper.
+- Paper covers Rock.
+- Draws (same choices) are not counted in the five rounds.
+- The first to win in five non-draw rounds wins the game.
 
-## Implementation
+## Features
 
-### HTML
+### Score Counter
+- Keeps track of the player's and computer's scores.
 
-The HTML structure includes three buttons for the choices and a paragraph to display the result.
+### Animations
+- Highlights the player's choice in each round for better visibility.
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors Game</title>
-</head>
-<body>
-    <h1>Rock Paper Scissors Game</h1>
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
-    <p id="result"></p>
-</body>
-</html>
+### Victory Pages
+- Unique victory pages are shown based on the game's outcome, with a special message and image for user or computer wins.
+
+- <img width="535" alt="image" src="https://github.com/utdjeff/Rock-Paper-Scissors/assets/132472962/09ec1920-4fb4-405f-99c3-cbb51b618771">
+
+
+### Replayability
+- "Play Again" option available on the victory page for restarting the game.
+
+This Rock-Paper-Scissors game offers a modern and engaging twist to the timeless classic, perfect for quick and fun gaming sessions.
