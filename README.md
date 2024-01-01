@@ -7,7 +7,7 @@ This project is a simple implementation of the classic game Rock-Paper-Scissors.
 - The game consists of three buttons: Rock, Paper, and Scissors.
 - Click on one of these buttons to make your choice.
 - The computer will randomly select its choice.
-- The game will then determine the winner based on the rules of Rock-Paper-Scissors.
+- The game will then determine the winner based on the rules of Rock-Paper-Scissors on a game of 5.
 
 ## Rules
 

@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* background-color: #f0f0f0; */
+    margin: 0;
+    padding: 20px;
+}
+
+#score-counter{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#score-counter  p{
+
+   font-size: larger;
+   font-weight: bolder;
+   color: #333;
+}
+
+h1 {
+    color: #333;
+}
+#game-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+button {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #eee;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+.game-button {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    transition: transform 0.3s;
+}
+
+#rock {
+    background-image: url('Pictures/DALL·E\ 2024-01-01\ 17.31.02\ -\ A\ cartoonish\ rock\ with\ a\ happy\ face\,\ on\ a\ white\ background.png');
+}
+
+#paper {
+    background-image: url('Pictures/DALL·E\ 2024-01-01\ 17.31.05\ -\ A\ cartoonish\ paper\ with\ a\ cheerful\ face\,\ on\ a\ white\ background.png');
+}
+
+#scissors {
+    background-image: url('Pictures/DALL·E\ 2024-01-01\ 17.31.07\ -\ A\ cartoonish\ pair\ of\ scissors\ with\ a\ smiling\ face\,\ on\ a\ white\ background.png');
+}
