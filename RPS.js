@@ -1,6 +1,8 @@
 let userScore = 0;
 let computerScore = 0;
 let gamesPlayed = 0;
+let gamesRemaining = 5;
+
 
 
 document.getElementById('rock').addEventListener('click', () => playGame('rock'));
@@ -25,6 +27,16 @@ function playGame(userChoice) {
     if (result !== "It's a draw!") {
         gamesPlayed++;
         if (gamesPlayed >= 5) {
+            displayFinalResult();
+        }
+    }
+
+    if (result !== "It's a draw!") {
+        gamesRemaining--;
+        document.getElementById('games-left').textContent = gamesRemaining;
+
+        // Check if the game series is over
+        if (gamesRemaining <= 0) {
             displayFinalResult();
         }
     }
